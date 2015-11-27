@@ -1,4 +1,4 @@
 # zabbix
-conf: UserParameter conf
-script: scripts
+conf: UserParameter conf  
+script: scripts  
 

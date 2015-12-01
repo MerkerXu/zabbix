@@ -13,7 +13,7 @@ main() {
             stat | grep 'SYN-SENT' | awk '{print $2}'
             ;;
         syn_recv)
-            stat | grep 'SYN-RECV' | awk '{print $2}'
+            stat | grep 'SYN-RCVD' | awk '{print $2}'
             ;;
         established)
             stat | grep 'ESTAB' | awk '{print $2}'
